@@ -3,16 +3,15 @@ int main()
 {
 	int a[12]={31,28,31,30,31,30,31,31,30,31,30,31};
 	int years,months,days,j=0,i;
-	printf("ÇëÊäÈëÄêÔÂÈÕ£º\n");
 	scanf("%d-%d-%d",&years,&months,&days);
-	if((years%4==0 && years%100!=0) ||years%400==0)  //if¿ÉÒÔµ¥´ø
+	if((years%4==0 && years%100!=0) ||years%400==0)  //ifå¯ä»¥å•å¸¦
 	{
-	     a[1]=29; //ÎŞint a¡¾1¡¿
+	     a[1]=29; //æ— int aã€1ã€‘
 	}
     for(i=0;i<months-1;i++)
 	{
-		j=a[i]+j; //ÎŞint a¡¾i¡¿
+		j=a[i]+j; //æ— int aã€iã€‘
 	}
-    printf("ÕâÊÇµÚ%dÌì\n",j+days);
+    printf("%d\n",j+days);
 	return 0;
 }
