@@ -10,10 +10,10 @@ int main()
     if(a[i]>max)
 	max=a[i];
        
-	else  if(a[i]<min)
+     if(a[i]<max)
 	min=a[i];
    }
-   printf("%d,%d\n",max,min);
+   printf("%d,%d",max,min);
 
 
 
