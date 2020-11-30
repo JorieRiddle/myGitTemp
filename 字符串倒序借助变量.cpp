@@ -2,10 +2,10 @@
 int main()
 {
 	char s1[21];
-	char c;
+	char c;  //必须是char
 	int len=0,i;
 	gets(s1);
-	while(s1[len]!='\0')
+	while(s1[len]!='\0')  //len必须定义从0开始
 	{
 		len++;
 	}

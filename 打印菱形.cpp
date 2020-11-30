@@ -18,7 +18,7 @@ int main()
 	 {
 		 printf("*");
 	 }
-	 printf("\n");	 
+	 printf("\n");  //换行必不可少	 
  }
  //打印下半部分
 for(i=1;i<=line-1;i++)

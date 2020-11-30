@@ -17,9 +17,9 @@ int main()
 		  }
 		 
 	}
-          printf("%c",c);
+                                 printf("%c",c);
 		  c=getchar();
-	}
+             }
 	printf("\n");
 	return 0;
 }
