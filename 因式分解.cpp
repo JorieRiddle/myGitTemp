@@ -5,7 +5,7 @@ int main()
 	int i;
 	scanf("%d",&x);
 	printf("x=");
-	for(i=2;i<x;i++)
+	for(i=2;i<x;i++)  //一定从2开始除
 	{
 		while(x%i==0)
 		{
