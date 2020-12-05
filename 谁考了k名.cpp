@@ -13,7 +13,7 @@ scanf("%d %lf",&hao[i],&fen[i]);
         for(j=i+1;j<n;j++){
             double tmp;
 int num;
-            if(fen[i]>fen[j]){
+            if(fen[i]>fen[j]){ //从小到大排
 tmp=fen[i];
 fen[i]=fen[j];
 fen[j]=tmp;
