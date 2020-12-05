@@ -8,7 +8,7 @@ int main()
 	{
 	     a[1]=29; //无int a【1】
 	}
-    for(i=0;i<months-1;i++)
+    for(i=0;i<months-1;i++) \\本月不加且因为数组减一，从0开始
 	{
 		j=a[i]+j; //无int a【i】
 	}

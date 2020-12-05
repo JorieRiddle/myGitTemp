@@ -3,7 +3,7 @@
 int main()
 {
 char ch[3][80];
-int SLetter = 0,CLetter = 0,Num = 0,Space = 0,Other = 0;
+int SLetter = 0,CLetter = 0,Num = 0,Space = 0,Other = 0;  //必须定为0
 for(int i = 0;i<3;i++)
 {
 gets(ch[i]);

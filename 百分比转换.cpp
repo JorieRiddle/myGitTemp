@@ -1,37 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 int main()
-{
-
- int x;
- printf("input a student score:\n");
- scanf("%d",&x);
- x=x/10;
- if(x>=0 && x<101)
- {
-	 switch(x)
+{printf("input a student score:\n");
+	int a;
+	scanf("%d",&a);
+	if(a>=0 && a<=100)
+	{a/=10;
+	 switch(a)
 	 {
-	 case 10:
-		 printf("A\n");
-		 break;
-		 
-	 case 9:
-		 printf("B\n");
-		 break;
-		 
-	 case 8:
-		 printf("C\n");
-		 break;
-		 
-	 case 7:
-		 printf("D\n");
-		 break;
-	 default:
-		 printf("F\n");
+    case 10:
+    case 9:printf("the student grade:\nA");break;
+	case 8:printf("the student grade:\nB");break;
+	case 7:printf("the student grade:\nC");break;
+	case 6:printf("the student grade:\nD");break;
+    default:printf("the student grade:\nF");break;
 	 }
- }
- else
- {
-	 printf("input error!");
- }
+	}
+	 else
+		printf("input error!");
 	return 0;
 }
