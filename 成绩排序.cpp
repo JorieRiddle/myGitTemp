@@ -8,12 +8,12 @@ int main()
     int data[100];
     char name[100][100],var[100];
     scanf("%d",&total);
-    scanf("%d",&model);
-    for(;i < total;i ++)
+    scanf("%d",&model); //???
+    for(i=0;i < total;i ++)
     {
         scanf("%s %d",name[i],&data[i]);
     }
-    if(model == 0)
+    if(model == 0) //比较成绩
     {
         for(i = 0;i < total;i ++)
         {

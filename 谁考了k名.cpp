@@ -8,7 +8,6 @@ int main()
     scanf("%d %d",&n,&k);
     for(i=0;i<n;i++) 
    {
-        //scanf("%d %g",&hao[i],&fen[i]);
           scanf("%d %lf",&hao[i],&fen[i]);
     }
     for(i=0;i<n-1;i++)

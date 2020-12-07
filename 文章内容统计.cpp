@@ -6,7 +6,7 @@ char ch[3][80];
 int SLetter = 0,CLetter = 0,Num = 0,Space = 0,Other = 0;  //必须定为0
 for(int i = 0;i<3;i++)
 {
-gets(ch[i]);
+gets(ch[i]);   //可以单独拿出来写
 for(int j = 0;j<80;j++)
 {
 if(ch[i][j]>=48&&ch[i][j]<58)
