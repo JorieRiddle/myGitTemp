@@ -19,4 +19,4 @@ int main()
 	scanf("%d/%d",&m,&n);
 	gcd(m,n);
 	return 0;
-}
+}；
