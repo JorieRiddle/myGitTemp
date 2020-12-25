@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
- 
 int main()
 { 
     int total = 0,i = 0,j = 0;

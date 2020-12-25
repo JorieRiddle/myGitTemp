@@ -10,7 +10,7 @@ int main()
 		arr[i][0]=arr[i][i]=1;  
 		//不加{}
 	}
-    for(i=2;i<M;i++)
+    for(i=2;i<M;i++) //有i-1所以才2开始
 	{
 		for(j=1;j<i;j++)
 		{

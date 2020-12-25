@@ -12,7 +12,7 @@ int main()
                 scanf("%s",&a[n]);    //插入单词
 	for(j=0;j<n;j++)
 	{
-		for(i=j;i<n;i++)
+		for(i=j;i<n;i++)  //因为又插入了一个所以不要n-1
 			if(strcmp(a[i],a[i+1])>0)  //字符串首字母a[i]>a[j]
 		{
 			strcpy(t,a[i]);
